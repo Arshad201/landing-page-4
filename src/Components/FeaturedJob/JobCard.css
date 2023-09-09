@@ -1,0 +1,87 @@
+.JobCard{
+    background-color: var(--white);
+    padding: 3.5rem 3rem;
+    border-radius: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.JobCard .card-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    
+}
+.card-header > :last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-name{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: #292929;
+}
+
+.postedAt{
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 0.01em;
+    color: #B5B8C6;
+}
+
+.card-body{
+    font-size: 2.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: 0.001em;
+    color: #292929;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card-footer img{
+    height: 1.2rem;
+}
+
+.card-footer > :first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 0.01em;
+    color: #F36532;
+    background-color: #F8ECE8;
+    border-radius: 0.8rem;
+}
+
+.card-footer > :last-child{
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 0.01em;
+    color: #838383;
+    background-color: #F8F7FE;
+    border-radius: 0.8rem;
+}

@@ -1,0 +1,37 @@
+.swiper {
+    width: 50%;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   */
+
+   .swiper-button-next {
+    background-image: url('../../assets/icons/next2.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: translate(-30vw, 382%);
+  }
+  
+  .swiper-button-next::after {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    background-image: url('../../assets/icons/previous2.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: translate(-37%, 382%)
+  }
+  
+  .swiper-button-prev::after {
+    display: none;
+  }

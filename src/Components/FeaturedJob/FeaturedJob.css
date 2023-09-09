@@ -1,0 +1,96 @@
+.featuredJob{
+    padding: 13rem 0rem;
+    background-color: #EFEEF3;
+}
+
+.featuredJob-wrapper{
+    width: 80%;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    gap: 7rem;
+}
+
+.featuredJob .heading-container{
+    gap: 0.8rem;
+}
+
+.featuredJob .subtitle{
+    color: var(--violet);
+}
+
+.featuredJob .btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.featuredJob button{
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: 50rem;
+}
+
+button.prev{
+    border: 1px solid #EDEEEF;
+    background-color: var(--white);
+}
+
+button.next{
+    border: 1px solid #F57343;
+    background-color: #F57343;
+}
+
+.jobs-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.featuredJob-wrapper > :last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredJob-wrapper > :last-child button{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--white);
+    background-color: var(--violet);
+    border: 2px solid var(--violet);
+    border-radius: 50rem;
+    padding: 2.1rem 3.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .featuredJob-wrapper{
+        width: 90%;
+    }
+
+    .jobs-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .featuredJob .heading-container{
+        text-align: center;
+    }
+    .jobs-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+

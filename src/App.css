@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&family=Poppins:wght@500;600&display=swap');
+
+
+/* 
+
+
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+
+*/
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --white: white;
+    --black: black;
+    --violet: #864BD8;
+    --off-white: #FFF9F8;
+    --deep-navy: #28344A;
+    --blueish-gray: #495263;
+    --dark-gray: #1F1F1F;
+    --gray-shade: #5B5A62;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    background-color: var(--white);
+  }
+
+  .heading-v1{
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 0.01em;
+    color: #292929;
+  }
+
+  .subtitle{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.2em;
+  }
+
+  .para-v1{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: var(--gray-shade);
+  }
+
+
+  .heading-container{
+    display: flex;
+    flex-direction: column;
+}
+
+  
+  
+  @media only screen and (max-width: 1920px) {
+    html{
+      font-size: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 1800px) {
+    html{
+      font-size: 87%;
+    }
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    html{
+      font-size: 81%;
+    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    html{
+      font-size: 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    html{
+      font-size: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    html{
+      font-size: 62.5%;
+    }
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    html{
+      font-size: 59.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  .heading-v1{
+    font-size: 4rem;
+  }
+
+  .subtitle{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-v1{
+    font-size: 3.6rem;
+  }
+}

@@ -1,0 +1,115 @@
+.newsletter{
+    padding-bottom: 10rem;
+}
+
+.newsletter-wrapper{
+    width: 80%;
+    margin: 0rem auto;
+    background: url('../../assets/images/newsletter-bg.png') center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0rem;
+    border-radius: 2rem;
+}
+
+.newsletter .heading-container{
+    text-align: center;
+    margin-bottom: 4rem;
+    gap: 1rem;
+}
+
+.newsletter .subtitle{
+    color: #BC95F2;
+}
+.newsletter .heading-v1{
+    color: var(--white);
+}
+
+.newsletter-form{
+    background-color: var(--white);
+    padding: 0.5rem;
+    width: 46%;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+    
+}
+
+.newsletter-form :first-child{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: var(--gray-shade);
+    outline: none;
+    border: none;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    flex: 1;
+    padding: 1.8rem 2rem 1.8rem 3rem;
+}
+
+.newsletter-form :first-child::placeholder{
+    color: #A3A2A8;
+    opacity: 1;
+}
+
+.newsletter-form :last-child{
+    font-size: 1.45rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    background-color: #FFB200;
+    border-radius: 20rem;
+    padding: 1.8rem 3.3rem;
+    border: 2px solid #FFB200;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.newsletter-form :last-child:hover{
+    background-color: var(--white);
+    color: var(--deep-navy);
+}
+
+@media only screen and (max-width: 1280px) {
+    .newsletter-form{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .newsletter-wrapper{
+        width: 90%;
+    }
+
+    .newsletter-form{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+
+    .newsletter-form{
+        position: relative;
+        margin: 0rem;
+    }
+
+    .newsletter-form > :first-child{
+        border-radius: 20rem;
+    }
+
+    .newsletter-form > :last-child{
+        position: absolute;
+        right: 0.35rem;
+    }
+}
+
+

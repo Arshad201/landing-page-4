@@ -1,0 +1,133 @@
+.testimonials{
+    padding-bottom: 10rem;
+}
+
+.testimonial-wrapper{
+    width: 80%;
+    margin: 0rem auto;
+}
+
+.testimonials .heading-container{
+    text-align: center;
+}
+
+.testimonials .subtitle{
+    color: #0D8772;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 5vw;
+}
+
+.testimonial .image-wrappper{
+    flex: 1;
+    text-align: center;
+}
+
+.testimonial .image-wrappper img{
+    /* border: 1px solid red; */
+    width: 75%;
+}
+
+.testimonial-carousel{
+    flex: 1;
+}
+
+.testimonial-carousel .slides{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+
+.slide-header .customer-name{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 0.01em;
+    color: #292929;
+}
+
+.slide-header .role{
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+    color: #83828A;
+    padding-top: 0.8rem;
+}
+
+.slide-body .review-text{
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.7em;
+    letter-spacing: 0.001em;
+    font-style: italic;
+    color: #5B5A62;
+    padding-right: 1vw;
+}
+
+.ratings{
+    margin-top: 1.5rem;
+}
+
+.slide-footer{
+    margin-top: 1rem;
+}
+
+.slide-footer div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.5rem; 
+    margin-top: 3rem;
+}
+
+.slide-footer button{
+    background-color: transparent;
+    border: unset;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    
+    .testimonial .image-wrappper img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .testimonial-wrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .testimonial-carousel{
+        width: 100%;
+        text-align: center;
+    }
+    .testimonial{
+        flex-direction: column;
+    }
+
+    .swiper {
+        width: 90% !important;
+    }
+
+    .slide-body .review-text{
+        padding: 0%;
+    }
+}
+
+
