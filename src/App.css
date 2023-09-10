@@ -124,8 +124,8 @@ font-family: 'Poppins', sans-serif;
   }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .heading-v1{
     font-size: 3.6rem;
   }
-}
+} */

@@ -326,9 +326,29 @@
         padding: 4rem 13vw 0rem 13vw;
     }
 
+    .trending-searches-wrapper h2{
+        font-size: 2.5rem;
+    }
+
+    .trending-searches a{
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 530px) {
+
+    .hero{
+        background: none;
+        animation: none;
+    }
+
+    .hero-wrapper{
+        width: 90%;
+        padding-top: 3rem;
+        background: url("/src/assets/icons/rainbow.svg") 35% 0% /10rem no-repeat;
+    }
 
     .hero-text-content h1{
         font-size: 5rem;
@@ -343,30 +363,56 @@
         flex-direction: column;
         gap: 2rem;
         align-items: flex-start;
-        /* border: 1px solid red; */
         width: 100%;
         border-radius: 1rem;
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.163);
+        padding: 0rem;
+        background-color: transparent;
+    }
+
+    .input-group input{
+        padding: 2.5rem 0rem;
+        font-size: 1.5rem;
     }
 
     .search-bar > :first-child{
         width: 100%;
+        padding: 0rem 2rem;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
     }
     
     .search-bar > :nth-child(2){
         width: 100%;
-        padding: 1.5rem 0rem;
+        padding: 0rem 2rem;
         border: none;
-        border-top: 1px solid #E6E6E6;
-        border-bottom: 1px solid #E6E6E6;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
     }
     
     .search-bar > :last-child{
         width: 100%;
     }
-    
+
+    .select-wrapper{
+        padding: 0%;
+    }
+
     .selected-text{
         justify-content: flex-start;
+        padding: 3rem 1.7rem;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        background-color: var(--white);
+        border-radius: 1rem;
+    }
+
+    .option-list{
+        top: 120%;
+        border-radius: 1rem;
+    }
+    .option-list .option{
+        padding: 1.5rem;
+        font-size: 1.5rem;
     }
     
 }
